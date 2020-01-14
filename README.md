@@ -53,7 +53,7 @@ The seed file should create one user for you, so your default user should be `id
 **Tips:**
 
 * Test out your routes with [Postman](https://www.getpostman.com/) to see how they work and what they return.
-* Look at the source code! There are many more routes that are not listed that may make your life easier. Use those development skills and hack the code!
+* Look at the source code! Check out `/app/controllers/api/v1/users_controller.rb`! There are many more routes that are not listed that may make your life easier. Use those development skills and hack the code!
 
 ## Provided Code
 
