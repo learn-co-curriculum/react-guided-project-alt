@@ -1,7 +1,7 @@
 README: React Guided Project
 ======================
 
-This is the starter code for a Mod 4 guided project. It is generic enough so that you can build out the domain of you choice! However, there are some restrictions in place.
+This is the starter code for a Mod 4 guided project. It is generic enough so that you can build out the domain of your choice! However, there are some restrictions in place.
 * You will build on top of the existing Rails backend and the React front end starter code
 * You will have exactly two models, one of which must be `User`
 * You must have a has-many relationship where the `User` has many of the other model
