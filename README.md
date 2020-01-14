@@ -82,7 +82,7 @@ Look at the gif below to see how the app should look and behave. The example gif
 **Viewing and Displaying Items**
 
 - [ ] Display all items in the left sidebar.
-- [ ] Displayed sidebar items should show one or two pieces attributes of the item, but not all of its information.
+- [ ] Displayed sidebar items should show one or two attributes of the item, but not all of its information.
 - [ ] When clicking an item from the sidebar, display all its contents in the right panel.
 
 ![result](react-evernote-display.gif)
@@ -100,7 +100,7 @@ Look at the gif below to see how the app should look and behave. The example gif
 **Creating Items**
 
 - [ ] At the bottom of your left sidebar, show a `New` button.
-- [ ] Clicking `New` will create a new item via `POST` request.
+- [ ] Clicking `New` will create a new item with some default data via a `POST` request.
 - [ ] This new item should appear in the sidebar.
 
 ![result](react-evernote-create.gif)
