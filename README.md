@@ -64,8 +64,8 @@ Let's assume your models are a `User` has many `Items`
 * The `User` has been built out for you, but not it's relationship.
 * You will need to create the model AND its relationship with `User`, the migration file, the routes, and the controller for `Item`.
 * You should migrate your database and seed it with `Item` data. All `Items` should belong to `user_id` 1.
-* You should build out a serializer so that a GET call to `http://localhost:3000/api/v1/users/1` should have the `Items` data nested inside the user object.
 * You will need to build out the functionality and routes to GET, POST, and PATCH to your `Item`.
+* You should build out a serializer so that a GET call to `http://localhost:3000/api/v1/users/1` should have the `Items` data nested inside the user object. See the example below where a `User` has many `Notes`:
 
 ![result](serialized.png)
 
