@@ -7,7 +7,7 @@ This is the starter code for a Mod 4 guided project. It is generic enough so tha
 * You must have a has-many relationship where the `User` has many of the other model
 * The other model must belongs to a single `User`
 
-For example, your project can be a `User` has many `Dogs`, a `User` has many `Recipes`, or a `User` has many `Notes`. Your goal will be to read, create, update, your belongs to model. Your will complete some other baseline deliverables and then make this project your own by building out unique stretch goals. Some suggestions are listed below, but try to be creative!
+For example, your project can be a `User` has many `Dogs`, a `User` has many `Recipes`, or a `User` has many `Notes`. Your goal will be to read, create, update, your belongs to model. You will also complete some other baseline deliverables and then make this project your own by building out unique stretch goals. Some suggestions are listed below, but try to be creative!
 
 ## Requirements
 - [ ] Complete all of the *Deliverables*.
