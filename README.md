@@ -42,7 +42,7 @@ Your Rails backend API will be running on `http://localhost:3000`.
 
 #### User ID
 
-The seed file should create one user for you, so your default `USER_ID` should be `1`. If that doesn't work, debug it with the `/api/v1/users` route as shown below.
+The seed file should create one user for you, so your default user should be `id: 1`. If that doesn't work, debug it with the `/api/v1/users` route as shown below.
 
 #### Routes
 
