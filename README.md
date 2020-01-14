@@ -73,6 +73,7 @@ Let's assume your models are a `User` has many `Items`
 
 * All CSS styles are provided for you. But you may want to edit `src/assets/css/brooke.css` to change the styling.
 * Many components are provided for you, but most are not completely functional. It is your job to read the code and figure out how to incorporate it into your app.
+* For the first iteration of your project, don't worry about a log-in feature. Instead, assume the user is User `id: 1`. You'll want to make a fetch call to `http://localhost:3000/api/v1/users/1` in order to get both `User` data AND data about their `Items` to populate in your Sidebar.
 
 ## Deliverables
 
