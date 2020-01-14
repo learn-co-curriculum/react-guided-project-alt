@@ -67,6 +67,8 @@ Let's assume your models are a `User` has many `Items`
 * You should build out a serializer so that a GET call to `http://localhost:3000/api/v1/users/1` should have the `Items` data nested inside the user object.
 * You will need to build out the functionality and routes to GET, POST, and PATCH to your `Item`.
 
+![result](serialized.png)
+
 **Frontend**
 
 * All CSS styles are provided for you. But you may want to edit `src/assets/css/brooke.css` to change the styling.
@@ -74,7 +76,7 @@ Let's assume your models are a `User` has many `Items`
 
 ## Deliverables
 
-Look at the gif below to see how the app should look and behave. These are the baseline deliverables you need to complete:
+Look at the gif below to see how the app should look and behave. The example gifs use the models `User` has many `Notes`. These are the baseline deliverables you need to complete:
 
 **Viewing and Displaying Items**
 
