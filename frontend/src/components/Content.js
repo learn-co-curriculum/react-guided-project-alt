@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import NoteEditor from './NoteEditor';
-import NoteViewer from './NoteViewer';
+import Editor from './Editor';
+import Viewer from './Viewer';
 import Instructions from './Instructions';
 
 /*
@@ -13,9 +13,9 @@ import Instructions from './Instructions';
 class Content extends Component {
   renderContent = () => {
     if (false) {
-      return <NoteEditor />;
+      return <Editor />;
     } else if (false) {
-      return <NoteViewer />;
+      return <Viewer />;
     } else {
       return <Instructions />;
     }

@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import NoteList from './NoteList';
+import ItemsList from './ItemsList';
 
 class Sidebar extends Component {
   render() {
     return (
       <div className='master-detail-element sidebar'>
-        <NoteList />
+        <ItemsList />
         <button>New</button>
       </div>
     );

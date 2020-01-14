@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 
-class NoteEditor extends Component {
+class Editor extends Component {
   render() {
     return (
-      <form className="note-editor">
+      <form className="editor">
         <input type="text" name="title" />
         <textarea name="body" />
         <div className="button-row">
@@ -15,4 +15,4 @@ class NoteEditor extends Component {
   }
 }
 
-export default NoteEditor;
+export default Editor;

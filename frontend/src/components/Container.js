@@ -3,7 +3,7 @@ import Search from './Search';
 import Sidebar from './Sidebar';
 import Content from './Content';
 
-class NoteContainer extends Component {
+class Container extends Component {
   render() {
     return (
       <Fragment>
@@ -17,4 +17,4 @@ class NoteContainer extends Component {
   }
 }
 
-export default NoteContainer;
+export default Container;

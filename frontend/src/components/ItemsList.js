@@ -1,13 +1,13 @@
 import React from 'react';
-import NoteItem from './NoteItem';
+import Item from './Item';
 
-const NoteList = (props) => {
+const ItemsList = (props) => {
   return (
     <ul>
       {/* Render list of notes here... */}
-      <NoteItem />
+      <Item />
     </ul>
   );
 }
 
-export default NoteList;
+export default ItemsList;

@@ -26,17 +26,17 @@ p.instructions {
 	text-align: center;
 }
 
-.note-editor input[name="title"] {
+.editor input[name="title"] {
   font-size: 24px;
   font-weight: 700;
-  border: 1px dashed grey;
+  border: 1px solid grey;
   margin: 0.5em 0;
   box-sizing: border-box;
 }
 
-.note-editor textarea {
+.editor textarea {
   font-size: 1em;
-  border: 1px dashed grey;
+  border: 1px solid grey;
   box-sizing: border-box;
   resize: none;
 }
@@ -67,7 +67,7 @@ p.instructions {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  border: 2px dashed grey;
+  border: 2px solid grey;
 }
 
 input {
@@ -131,7 +131,7 @@ div.sidebar ul li:hover {
   float:left;
   margin: 10px 0px;
   padding: 20px;
-  border: 2px dashed grey;
+  border: 2px solid grey;
 }
 
 .sidebar {
@@ -143,13 +143,13 @@ div.sidebar ul li:hover {
   width:75%;
 }
 
-.note-editor {
+.editor {
   display: flex;
   flex-direction: column;
   height: 100%;
 }
 
-.note-editor textarea {
+.editor textarea {
   flex: 1;
 }
 
